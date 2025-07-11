@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Explore the portfolio of Rifqi Fauzan, an experienced IT professional and software engineer. See my project work, diverse experience, and connect for collaborations."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, RevoU, Software, Engineer, IT, Indonesia"
+    />
+    <title>Portofolio Website created by Rifqi Fauzan</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!--Navigation Bar-->
+            <a href="#profile">Profile</a>
+            <a href="#experience" >Experience</a>
+            <a href="#project" >Project</a>
+            <a href="#contact" >Contact</a> 
+        </nav>
+    </header>
+
+    <main id="profile">
+            <!--Image profile and introduction-->
+            <img src="/images/Foto-casual.png" alt="Foto Rifqi Fauzan">
+            <h1>Hi, I'm Rifqi Fauzan</h1>
+            <p>
+                Highly motivated IT professional with 4 year experience in Information Technology. Seeking a challenging position to leverage skills in
+troubleshooting, system administration, and project management for the success
+of an organization. Strong team player with excellent communication skills
+            </p> 
+    </main>
+
+    <section id="experience">
+        <!--List of Experience-->
+        <h2>Experience</h2>
+        <ol>
+          <li>
+            <h3>IT Support</h3>
+            <p>July 2023 - Now</p>
+          </li>
+          <li>
+            <h3>System Engineer</h3>
+            <p>1 Year / 2022 </p>
+          </li>
+          <li>
+            <h3>IT Support </h3>
+            <p>1 Year / 2020 </p>
+          </li>
+        </ol>
+    </section>
+
+    <section id="project">
+        <!--List of Project done (Soon to be Added)-->
+        <h2>Project</h2>
+        <ul>
+          <li>
+            <h3>Project 1</h3>          
+         </li>
+        </ul>
+    </section>
+
+     <section id="contact">
+        <!--Send a message-->
+        <h2>Leave Me a Message!</h2>
+        <form action="/contact-submit" method="POST">
+          <p>
+            <label for="contact_name">Name :</label><br/>
+            <input
+              type="text"
+              id="contact_name"
+              name="name"
+              required
+              placeholder="Enter Your Name"
+            />
+          </p>
+
+          <p>
+            <label for="contact_email">Email :</label><br/>
+            <input
+              type="email"
+              id="contact_email"
+              name="email"
+              required
+              placeholder="Enter your email"
+            />
+          </p>
+     
+          <p>
+            <label for="contact_message">Message :</label><br/>
+            <textarea
+              id="contact_message"
+              name="message"
+              rows="7"
+              cols="30"
+              required
+              placeholder="Write your message"
+            ></textarea>
+          </p>
+          <input type="submit" value="send" />
+        </form>
+      </section>
+</body>
+
+ <footer>
+      <p>&copy; 2025 Rifqi Fauzan</p>
+</footer>
+
+</html>
