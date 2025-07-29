@@ -1,14 +1,14 @@
 @import url("./navbar.css");
 
-
 :root {
   --primary-color: #3498db;
   --logo-color: #2c3e50;
   --text-color: #333;
   --text-secondary-color: #555;
-  --bg-color: #F8FAFC;
-  --bg-white: #F8FAFC;
+  --bg-color: #f8fafc;
+  --bg-white: #f8fafc;
   --border-color: #f0f0f0;
+  --secondary-color: #e0e0e0;
 
   --font-primary: "Roboto", sans-serif;
 
@@ -57,7 +57,7 @@ body {
 .about {
   padding: 8rem 0;
   background-color: var(--bg-white);
-  background-image: url('./images/bg-image.png');
+  background-image: url("./images/bg-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -157,7 +157,6 @@ body {
   }
 }
 
-
 /*experience*/
 #experience {
   padding: 80px 0;
@@ -179,14 +178,12 @@ body {
   text-align: justify;
 }
 
-
 .experience-details-container {
   display: flex;
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
 }
-
 
 .about-containers {
   display: flex;
@@ -195,7 +192,6 @@ body {
   width: 100%;
   max-width: 1200px;
 }
-
 
 .details-container {
   flex: 1;
@@ -217,14 +213,12 @@ body {
   margin-bottom: 20px;
 }
 
-
 .article-container {
   display: grid;
-  
+
   gap: 20px;
   text-align: left;
 }
-
 
 .article-container article {
   display: flex;
@@ -248,7 +242,6 @@ body {
   font-size: 0.9rem;
   color: #777;
 }
-
 
 @media (max-width: 768px) {
   .about-containers {
@@ -328,7 +321,6 @@ ul {
   gap: 1rem;
 }
 
-
 #projects {
   position: relative;
 }
@@ -394,10 +386,6 @@ ul {
   height: 2.5rem;
 }
 
-
-
-
-
 #experience {
   position: relative;
 }
@@ -434,9 +422,6 @@ article {
 article .icon {
   cursor: default;
 }
-
-
-
 
 /* PROJECTS SECTION */
 
@@ -505,11 +490,9 @@ article .icon {
   height: 2.5rem;
 }
 
-
 /* FOOTER SECTION */
 
 .socials-footer {
-  
   display: flex;
   justify-content: center;
   gap: 1rem;
