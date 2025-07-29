@@ -66,6 +66,14 @@ body {
   color: #333;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 
 .experience-details-container {
   display: flex;

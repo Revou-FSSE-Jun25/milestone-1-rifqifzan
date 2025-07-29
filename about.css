@@ -1,6 +1,10 @@
 .about {
   padding: 8rem 0;
   background-color: var(--bg-white);
+  background-image: url('./images/bg-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .about-content {

@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #D9EAFD;
+  background-color: var(--bg-white);
   box-shadow: var(--shadow-navbar);
   z-index: 1000;
 }

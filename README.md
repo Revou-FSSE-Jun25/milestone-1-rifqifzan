@@ -1,6 +1,3 @@
-Page:
-https://revou-fsse-jun25.github.io/milestone-1-rifqifzan/
-
 Personal Portfolio Website
 
 This is a personal portfolio website designed to showcase my skills, projects, and provide a way for others to contact me.
