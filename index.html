@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="id">
   <head>
-    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,7 @@
     <meta name="description" content="Explore the portfolio of Rifqi Fauzan, an experienced IT professional and software engineer. See my project work, diverse experience, and connect for collaborations.">
     <meta name="keywords" content="HTML, CSS, JavaScript, RevoU, Software, Engineer, IT, Indonesia, Portofolio, Developer">
     <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
     <meta name="language" content="English">
     <meta name="revisit-after" content="7 days">
     <meta name="author" content="Rifqi Fauzan">
@@ -28,9 +28,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <title>Portofolio Website created by Rifqi Fauzan</title>
   </head>
 
-  <body class="container">
+  <body>
     <header class="navbar">
       <input type="checkbox" id="hamburger-toggle" />
       <nav class="container navbar-container">
@@ -47,7 +48,7 @@
       </nav>
     </header>
 
-    <main id="profile" class="about">
+    <main id="profile" class="about ">
       <div class="container">
         <div class="about-content">
           <div class="about-text">
@@ -62,9 +63,9 @@
             <div class="about-stats">
               <div class="stat-item">
                 <ul class="socials">
-                   <li><a href="https://www.instagram.com/rifqi.fzan/"><i class="fa-brands fa-instagram"></i></li>
-                   <li><a href="https://www.linkedin.com/in/rifuzan"><i class="fa-brands fa-linkedin"></i></li>
-                   <li><a href="https://github.com/rifqifzan"><i class="fa-brands fa-github"></i></li>
+                   <li><a href="https://www.instagram.com/rifqi.fzan/"><i class="fa-brands fa-instagram"></i></a></li>
+                   <li><a href="https://www.linkedin.com/in/rifuzan"><i class="fa-brands fa-linkedin"></i></a></li>
+                   <li><a href="https://github.com/rifqifzan"><i class="fa-brands fa-github"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -86,14 +87,16 @@
 
      <section id="skill">
       <br>
-      <div class="experience-details-container">
+      <div class="container">
+        <h2 class="title text-center">Skill</h2>
+        <br>
         <div class="about-containers">
           <div class="details-container">
-           <h2 class="experience-sub-title text-center">Skill</h2>
+           
             <div class="article-container">
               <article>
                 <img
-                  src="/images/checkmark.png"
+                  src="./images/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -151,15 +154,14 @@
           </div>
             </div>
           </div>
-        </div>
-      </div>
+       
       
     </section> 
 
     <section id="projects">
       <br>
-      <p class="text-center">Browse My Recent</p>
-      <h1 class="title text-center">Projects</h1>
+      <div class="container">
+      <h2 class="title text-center">Projects</h2>
       <br>
       <div class="experience-details-container">
         <div class="about-containers">
@@ -173,6 +175,7 @@
             </div>
             <h2 class="text-center">Project 1</h2>
             <br>
+           
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -180,27 +183,20 @@
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+            
             </div>
-          </div>        
-        </div>
-
-        <div class="about-containers">
+          </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./images/NodeJS.jpg"
-                alt="Project 1"
+                src="./images/React.png"
+                alt="Project 2"
                 class="project-img"
               />
             </div>
             <h2 class="text-center">Project 2</h2>
             <br>
+            
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -208,27 +204,20 @@
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              
             </div>
-          </div>        
-        </div>
-
-        <div class="about-containers">
+          </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./images/react.png"
-                alt="Project 1"
+                src="./images/NodeJS.jpg"
+                alt="Project 3"
                 class="project-img"
               />
             </div>
             <h2 class="text-center">Project 3</h2>
             <br>
+            
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -236,25 +225,18 @@
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              
             </div>
-          </div>        
+          </div>
         </div>
-
       </div>
-     
     </section>
 
    
 
     <section id="contact">
         <!--Send a message-->
-        <h1 class="title text-center">Contact Me</h1>
+        <h2 class="title text-center">Contact Me</h2>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
         <form action="/contact-submit" method="POST">
@@ -298,13 +280,14 @@
                 Send
               </button>
         </form>
+        </div>
+        </div>
       </section>
-    
- <footer>
+    <footer>
                 <ul class="socials-footer">
-                   <li><a href="https://www.instagram.com/rifqi.fzan/"><i class="fa-brands fa-instagram"></i></li>
-                   <li><a href="https://www.linkedin.com/in/rifuzan"><i class="fa-brands fa-linkedin"></i></li>
-                   <li><a href="https://github.com/rifqifzan"><i class="fa-brands fa-github"></i></li>
+                   <li><a href="https://www.instagram.com/rifqi.fzan/"><i class="fa-brands fa-instagram"></i></a></li>
+                   <li><a href="https://www.linkedin.com/in/rifuzan"><i class="fa-brands fa-linkedin"></i></a></li>
+                   <li><a href="https://github.com/rifqifzan"><i class="fa-brands fa-github"></i></a></li>
                 </ul>
       <p>Copyright &#169; 2025 Rifqi Fauzan. All Rights Reserved.</p>
     </footer>
