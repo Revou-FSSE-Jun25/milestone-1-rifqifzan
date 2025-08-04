@@ -52,8 +52,8 @@
       <div class="container">
         <div class="about-content">
           <div class="about-text">
-            <h2 class="about-title">RIFQI FAUZAN</h2>
-            <h3 class="about-subtitle">Fullstack Developer</h3>
+            <h1 class="about-title">RIFQI FAUZAN</h1>
+            <h2 class="about-subtitle">Fullstack Developer</h2>
             <p class="text-justify">
               Highly motivated IT professional with 4 year experience in Information Technology. 
               Seeking a challenging position to leverage skills in
@@ -179,7 +179,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='#'"
               >
                 Github
               </button>
@@ -200,7 +200,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='#'"
               >
                 Github
               </button>
@@ -221,7 +221,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='#'"
               >
                 Github
               </button>
@@ -233,26 +233,29 @@
     </section>
 
    
-    <section  id="Contact">
-        
-            <div class="contact-form reveal container">
+    
+    <form id="Contact" class="contact-form reveal container details-container">
+              
               <h2 class="text-center">Contact Me</h2>
               <br>
               <div class="input-box">
-                <input type="text" name="" value="" placeholder="Name">
+                <input type="text" id="namebox"  placeholder="Name">
+                <label for="namebox"></label>
               </div>
               <div class="input-box">
-                <input type="text" name="" value="" placeholder="Email">
+                <input type="email" id="emailbox"  placeholder="Email" required>
+                <label for="emailbox"></label>
               </div>
               <div class="input-box">
-                <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
+                <textarea name="name" id="messagebox" rows="8" cols="80" placeholder="Message"></textarea>
+                <label for="messagebox"></label>
               </div>
               <div class="input-box">
-                <input type="submit" class="send-btn" name="" value="Send">
+                <input type="submit" class="send-btn" name="submit-btn" value="Send">
               </div> 
-            </div>
-        
-      </section>
+              
+    </form>
+      
     
     <footer>
      <br> 
