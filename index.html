@@ -234,21 +234,21 @@
 
    
     
-    <form id="Contact" class="contact-form reveal container details-container">
+    <form id="Contact" class="contact-form reveal container details-container" action="/send-data" method="POST">
               
               <h2 class="text-center">Contact Me</h2>
               <br>
               <div class="input-box">
-                <input type="text" id="namebox"  placeholder="Name">
-                <label for="namebox"></label>
+                <label for="namebox" class="label-hide">name</label>
+                <input type="text" name="name" id="namebox"  placeholder="Name">
               </div>
               <div class="input-box">
-                <input type="email" id="emailbox"  placeholder="Email" required>
-                <label for="emailbox"></label>
+                <label for="emailbox" class="label-hide">email</label>
+                <input type="email" name="email" id="emailbox"  placeholder="Email" required>
               </div>
               <div class="input-box">
-                <textarea name="name" id="messagebox" rows="8" cols="80" placeholder="Message"></textarea>
-                <label for="messagebox"></label>
+                <label for="messagebox" class="label-hide">Message</label>
+                <textarea name="message" id="messagebox" rows="8" cols="80" placeholder="Message"></textarea>
               </div>
               <div class="input-box">
                 <input type="submit" class="send-btn" name="submit-btn" value="Send">
